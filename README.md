@@ -5,6 +5,9 @@ A modern beauty and cosmetics e-commerce platform built with React, TypeScript, 
 
 ![GlowMart Preview](/preview.png)
 
+## 🌐 Live Preview
+
+Check out the live demo: [GlowMart Beauty](https://glowmart-heroui.vercel.app/)
 
 ## 🎯 Development Journey
 
@@ -21,6 +24,7 @@ This project has an interesting development story:
 - Type-safe development with TypeScript
 - Tailwind CSS for custom styling
 - React Router for seamless navigation
+- Admin Dashboard for product and order management
 
 ## 🛠️ Tech Stack
 
@@ -39,6 +43,8 @@ src/
 ├── components/     # Reusable UI components
 ├── contexts/       # React context providers
 ├── pages/         # Page components
+│   ├── admin/     # Admin dashboard pages
+│   └── /    # Client-facing pages
 ├── routes/        # Route configurations
 ├── App.tsx        # Main application component
 ├── main.tsx       # Application entry point
@@ -98,6 +104,15 @@ This project extensively uses HeroUI components and utilities:
 - The transition was smooth and maintained all project requirements
 - All HeroUI components and design principles were preserved
 - The project successfully demonstrates the flexibility of HeroUI's ecosystem
+- Admin dashboard is accessible at `/admin` route with secure authentication
+
+## 🔐 Admin Dashboard
+
+The project includes a comprehensive admin dashboard accessible at `/admin` route:
+
+To access the admin dashboard:
+1. Visit the application
+2. Navigate to `/admin` route
 
 ## 🤝 Contributing
 
