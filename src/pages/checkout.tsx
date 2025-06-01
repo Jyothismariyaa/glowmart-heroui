@@ -2,11 +2,12 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { Button, Card, CardBody, Input, Radio, RadioGroup, Checkbox, Tabs, Tab } from '@heroui/react';
 import { Icon } from '@iconify/react';
 
 export const CheckoutPage: React.FC = () => {
+  const history = useHistory();
   const [activeStep, setActiveStep] = React.useState(1);
   const [paymentMethod, setPaymentMethod] = React.useState('credit-card');
   const [isProcessing, setIsProcessing] = React.useState(false);
@@ -16,7 +17,7 @@ export const CheckoutPage: React.FC = () => {
     // Simulate order processing
     setTimeout(() => {
       setIsProcessing(false);
-      window.location.href = '/order-confirmation';
+      history.push('/order-confirmation');
     }, 2000);
   };
 
@@ -463,7 +464,7 @@ export const CheckoutPage: React.FC = () => {
                   </div>
                   
                   <div className="mt-6 flex items-center justify-center gap-2 text-white/60 text-sm">
-                    <Icon icon="lucide:lock" size={14} />
+                    <Icon icon="lucide:lock" />
                     <span>Secure Checkout</span>
                   </div>
                 </CardBody>
