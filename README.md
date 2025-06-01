@@ -1,8 +1,33 @@
-# React + Tailwind
+# GlowMart Beauty - HeroUI Hackathon Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. One top of the standard Vite setup, [tailwindcss](https://tailwindcss.com/) is installed and ready to be used in React components.
+![GlowMart Preview](/preview.png)
 
-Additional references:
+A modern beauty and cosmetics e-commerce platform built with React, TypeScript, and HeroUI components. This project was developed as part of the HeroUI Hackathon, showcasing the power and flexibility of the HeroUI library.
 
-- [Getting started with Vite](https://vitejs.dev/guide/)
-- [Tailwind documentation](https://tailwindcss.com/docs/installation)
+## 🎯 Development Journey
+
+This project has an interesting development story:
+- Initially developed using HeroUI Chat, following the hackathon's guidelines
+- Due to technical constraints with HeroUI Chat, development was seamlessly transitioned to a local IDE
+- The project maintains complete compatibility with HeroUI's design system and components
+- All features and functionality were preserved during the transition
+
+## 🚀 Features
+
+- Modern and responsive UI built with HeroUI components
+- Smooth animations using Framer Motion
+- Type-safe development with TypeScript
+- Tailwind CSS for custom styling
+- React Router for seamless navigation
+
+## 🛠️ Tech Stack
+
+- React 18
+- TypeScript
+- HeroUI (@heroui/react)
+- Tailwind CSS
+- Framer Motion
+- Vite
+- React Router DOM
+
+## 📦 Project Structure
